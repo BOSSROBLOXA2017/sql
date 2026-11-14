@@ -149,8 +149,6 @@ GRANT SELECT ON electronics_sales.products TO 'seller'@'localhost';
 GRANT SELECT ON electronics_sales.categories TO 'seller'@'localhost';
 GRANT SELECT ON electronics_sales.stores TO 'seller'@'localhost';
 
-FLUSH PRIVILEGES;
-
 SHOW GRANTS FOR 'director'@'localhost';
 SHOW GRANTS FOR 'analyst'@'localhost';
 SHOW GRANTS FOR 'manager'@'localhost';
